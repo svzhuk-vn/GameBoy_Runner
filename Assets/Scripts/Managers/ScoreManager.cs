@@ -65,6 +65,13 @@ public class ScoreManager : MonoBehaviour
         StopAllCoroutines();
     }
 
+    public void OnDataLoaded(GameData data)
+    {
+        this.hightScoreCount = data.hightScoreCount;
+        this.hightScoreChanged?.Invoke(this.hightScoreCount);
+    
+    }
+
 }
 
 
