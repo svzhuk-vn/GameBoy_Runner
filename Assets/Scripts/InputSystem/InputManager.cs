@@ -9,11 +9,13 @@ public class InputManager : MonoBehaviour
 
     [Header("Settings")]
     [SerializeField] private bool isGameStarted;
+    [SerializeField] private bool isPlayerDead;
 
     [SerializeField] private UnityEvent gameStart;
     [SerializeField] private UnityEvent jumpButtonDown;
     [SerializeField] private UnityEvent crouchRunButtonDown;
     [SerializeField] private UnityEvent crouchRunButtonUp;
+    [SerializeField] private UnityEvent restartLevel;
 
 
 
@@ -43,6 +45,17 @@ public class InputManager : MonoBehaviour
     {
         this.crouchRunButtonUp?.Invoke();
         Debug.Log("Crouch off");
+    }
+
+    public void OnPlayedDead() => this.isPlayerDead = true;
+
+    public void OnRestartLevelButtonDown()
+    {
+        if (this.isPlayerDead)
+        {
+            this.restartLevel?.Invoke();
+            Debug.Log("Played dead");
+        }
     }
 
 }

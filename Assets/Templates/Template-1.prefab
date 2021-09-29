@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 5221421534202762665}
   - component: {fileID: 1623754423137552593}
   - component: {fileID: 46020251396416716}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: platformPack_tile045
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -140,7 +140,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5596883034285281759}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Template-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
