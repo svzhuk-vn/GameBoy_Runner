@@ -18,6 +18,7 @@ public class HighScorePresenter : MonoBehaviour
 
     }
 
+    public void OnDataLoaded(GameData data) => this.highScoreText.text = $"{this.prefix} {data.hightScoreCount}";
     public void OnHigtScoreChanged(int highScore) => this.highScoreText.text = $"{this.prefix} {highScore}";
 
 }

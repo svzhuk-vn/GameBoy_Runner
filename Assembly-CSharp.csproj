@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{CAEC3BBE-3D47-485C-7771-F0AE24B05E87}</ProjectGuid>
+    <ProjectGuid>{2FF1F0DD-D664-450C-1540-864C13A77974}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -54,27 +54,28 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\UI\PlayButtonPresenter.cs" />
+    <Compile Include="Assets\Scripts\Managers\GameSceneManager.cs" />
     <Compile Include="Assets\Scripts\UI\ScorePresenter.cs" />
+    <Compile Include="Assets\Scripts\Data\GameData.cs" />
     <Compile Include="Assets\Scripts\Player\CharacterSoundController.cs" />
     <Compile Include="Assets\Scripts\UI\HighScorePresenter.cs" />
     <Compile Include="Assets\Scripts\InputSystem\InputManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\PauseManager.cs" />
     <Compile Include="Assets\Scripts\PlatformChar\TemplatesLoader.cs" />
     <Compile Include="Assets\Scripts\UI\MobileLayerPresenter.cs" />
     <Compile Include="Assets\Scripts\PlatformChar\TemplatesDestroyer.cs" />
     <Compile Include="Assets\Scripts\UI\ControlButtonPresenter.cs" />
+    <Compile Include="Assets\Scripts\UI\RestartButtonPresenter.cs" />
     <Compile Include="Assets\Scripts\PlatformChar\MapSpawner.cs" />
     <Compile Include="Assets\Scripts\PlatformChar\MapMover.cs" />
     <Compile Include="Assets\Scripts\Managers\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\UI\HighScoreSoundController.cs" />
+    <Compile Include="Assets\Scripts\Managers\SaveManager.cs" />
     <Compile Include="Assets\Scripts\UI\ScoreSoundController.cs" />
     <Compile Include="Assets\Scripts\Player\Character.cs" />
     <Compile Include="Assets\Scripts\Player\CharacterMovementController.cs" />
     <Compile Include="Assets\Scripts\Player\CharacterAnimationController.cs" />
-    <Compile Include="Assets\Scripts\Data\GameData.cs" />
-    <Compile Include="Assets\Scripts\Managers\SaveManager.cs" />
-    <Compile Include="Assets\Scripts\Managers\PauseManager.cs" />
-    <Compile Include="Assets\Scripts\UI\RestartButtonPresenter.cs" />
-    <Compile Include="Assets\Scripts\Managers\GameSceneManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\MusicManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

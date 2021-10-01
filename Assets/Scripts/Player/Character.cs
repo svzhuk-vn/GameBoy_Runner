@@ -40,6 +40,7 @@ public class Character : MonoBehaviour
             switch (other.gameObject.tag)
                 { 
                     case "Obstacle":
+                    this.characterSound.PlayDeathSound();
                     this.dead?.Invoke();
                     Debug.Log("{<color=lime><b> Character Log </b></color> => [Character] - (<color=yellow>OnCollisionEnter2d</color> - > Character dead.}");
                     break;
