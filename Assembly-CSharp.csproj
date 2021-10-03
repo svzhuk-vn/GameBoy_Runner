@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\UI\MobileLayerPresenter.cs" />
     <Compile Include="Assets\Scripts\PlatformChar\TemplatesDestroyer.cs" />
     <Compile Include="Assets\Scripts\UI\ControlButtonPresenter.cs" />
+    <Compile Include="Assets\Scripts\Managers\MusicManager.cs" />
     <Compile Include="Assets\Scripts\UI\RestartButtonPresenter.cs" />
     <Compile Include="Assets\Scripts\PlatformChar\MapSpawner.cs" />
     <Compile Include="Assets\Scripts\PlatformChar\MapMover.cs" />
@@ -75,7 +76,7 @@
     <Compile Include="Assets\Scripts\Player\Character.cs" />
     <Compile Include="Assets\Scripts\Player\CharacterMovementController.cs" />
     <Compile Include="Assets\Scripts\Player\CharacterAnimationController.cs" />
-    <Compile Include="Assets\Scripts\Managers\MusicManager.cs" />
+    <Compile Include="Assets\Scripts\UI\StarsEffectPresenter.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
